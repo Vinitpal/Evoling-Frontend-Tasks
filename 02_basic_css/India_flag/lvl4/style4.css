@@ -1,0 +1,16 @@
+/* #hr1 {
+  /* width: 20%; */
+/* border-bottom: 20px solid #ff9933;
+  margin-bottom: 30px; }*/
+/* #hr2 {
+  /* width: 20%; */
+/* border-bottom: 20px solid green; }*/
+
+#hr1 {
+  border-bottom: 200px solid #f93;
+  margin-bottom: 20px;
+}
+
+#hr2 {
+  border-top: 20px solid #080;
+}

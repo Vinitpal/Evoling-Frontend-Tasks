@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <h1>Signup</h1>
+    <form class="" action="index.html" method="post">
+      <label for="name">Full Name:</label> <br />
+      <input type="text" id="name" name="name" required /> <br />
+      <br />
+      <label for="email">Email:</label> <br />
+      <input type="email" id="email" name="email" required /> <br />
+      <br />
+      <label for="password">Password</label> <br />
+      <input type="password" id="password" name="password" required /> <br />
+      <br />
+      <label for="c-pass">Confirm Password</label> <br />
+      <input type="password" id="c-pass" name="c-pass" required /> <br />
+      <br />
+      <p>Gender</p>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+      <br />
+      <br />
+      <p>Security Question:</p>
+      <select name="security-question">
+        <option value="What was your first pet name?">
+          What was your first pet name?
+        </option>
+        <option value="age">What was your age when you got a videogame?</option>
+        <option value="color">What is color</option>
+      </select>
+      <br />
+      <textarea name="message" id="" cols="30" rows="10"></textarea>
+      <br />
+      <br />
+      <input type="checkbox" name="agree" id="agree" />
+      <label for="agree">I agree to terms and condition</label>
+      <br />
+      <br />
+      <button type="button">Register</button>
+    </form>
+  </body>
+</html>
