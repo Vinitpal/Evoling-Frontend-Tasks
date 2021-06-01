@@ -1,16 +1,16 @@
-/* #hr1 {
-  /* width: 20%; */
-/* border-bottom: 20px solid #ff9933;
-  margin-bottom: 30px; }*/
-/* #hr2 {
-  /* width: 20%; */
-/* border-bottom: 20px solid green; }*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 
 #hr1 {
-  border-bottom: 200px solid #f93;
-  margin-bottom: 20px;
+  border-bottom: 33.33vh solid #f93;
+  margin-bottom: 33.33vh;
+  background-color: #f93;
 }
 
 #hr2 {
-  border-top: 20px solid #080;
+  border-top: 33.33vh solid #080;
 }
